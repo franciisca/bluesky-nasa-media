@@ -1,6 +1,7 @@
 /* Box Model Hack */
 * {
      box-sizing: border-box;
+     color: blanchedalmond;
 }
 
 /* Clear fix hack */
@@ -22,9 +23,8 @@
 /*******************************************/
 
 html{
-     background: url('/img/galaxy.jpg') no-repeat center fixed;     
+     background: url('/img/galaxy1.jpg') no-repeat center fixed;     
     background-size: cover;
-    margin-bottom: 10rem;
 }
 
 
@@ -33,6 +33,7 @@ body {
      max-width: auto;
      margin-left: 3rem;
      margin-right: 3rem;
+     margin-top: 5rem;
 }
 
 
@@ -52,7 +53,15 @@ footer {
 /* ADDITIONAL STYLES
 /*******************************************/
 
+h1{
+     font-family: 'Silkscreen', cursive;
+     font-size: 2.5rem;
+}
 
+p{
+     font-size: 1.3rem;
+     font-family: 'Kanit', sans-serif;
+}
 
 div{
      height: 300px;
@@ -66,7 +75,16 @@ img {
      max-width: 100%;
 }
 
-h3{
+iframe{
+
+}
+
+h3,h2,button,input{
      text-align: justify;
+     font-family: 'Kanit', sans-serif;
     
+}
+
+input, button{
+     color: rgb(28, 28, 151);
 }
